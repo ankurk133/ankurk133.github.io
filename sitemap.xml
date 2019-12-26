@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://www.ankurkhunt.com/</loc>
+    <lastmod>2019-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.ankurkhunt.com/Ankur_Khunt_ankurkhunt.jpg</image:loc>
+        <image:title>AnkurKhunt Image Profile picture</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.ankurkhunt.com/images/project-1.jpg</image:loc>
+        <image:title>AnkurKhunt Project image </image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.ankurkhunt.com/images/iot.png</image:loc>
+        <image:title>AnkurKhunt project image 2</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.ankurkhunt.com/images/project-3.jpg</image:loc>
+        <image:title>Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.ankurkhunt.com/images/research.jpg</image:loc>
+        <image:title>AnkurKhunt Project image 3</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.ankurkhunt.com/Resume2019.pdf</loc>
+    <lastmod>2019-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
