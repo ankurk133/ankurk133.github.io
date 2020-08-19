@@ -344,12 +344,23 @@
                 <div class="col-lg-12 col-md-50">
                   <div>
                     <div class="carousel-inner" align="center">
-                      <img
+                      <!-- <img
                         src="https://ghchart.rshah.org/4e81b8/ankurkhunt"
                         alt="ankurkhunt's Github chart"
                         width="90%"
                         style="padding: 10px;"
-                      />
+                      /> -->
+                      <!-- Prepare a container for your calendar. -->
+                      <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+                      <!-- Prepare a container for your calendar. -->
+                      <div class="calendar">
+                        <!-- Loading stuff -->
+                        Loading the github contributions data just for you.
+                      </div>
+
+                      <script>
+                        new GitHubCalendar(".calendar", "ankurkhunt");
+                      </script>
                     </div>
                   </div>
                 </div>
