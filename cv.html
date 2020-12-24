@@ -130,6 +130,7 @@
 
             .flex {
                 display: flex;
+                flex-wrap: wrap;
             }
 
             .flex-wrap {
@@ -137,7 +138,9 @@
             }
 
             .col-left {
-                flex-basis: 60%;
+                display: inline-block;
+                flex: 1 0 33%;
+                /* flex-basis: 60%; */
             }
 
             .col-right {
@@ -368,13 +371,28 @@
                     padding-bottom: 5px;
                 }
             }
+
+           @media only screen and (max-width:500px){
+                section.contact ul li {
+                float: left;
+                display: inline;
+                width: 100%;
+                padding: 4px 30px 10px 0px;
+                font-weight: bold;
+                }
+                .col-right {
+                flex-basis: 100%;
+                justify-content: center;
+                margin-left: 0px;
+            }
+            }
         </style>
     </head>
 
     <body>
         <div class="page">
-            <header class="flex">
-                <div class="col-left">
+            <header class="flex flex-wrap">
+                <div class="col-left" style="display: inline-block ;flex:1 0 33%;">
                     <section class="title">
                         <h1>Ankur Khunt</h1>
                         <span class="role">Full Stack Solution Engineer</span>
@@ -388,7 +406,7 @@
                             <li>
                                 <i class="fa fa-link"></i>
                                 <a href="https://www.ankurkhunt.com"
-                                    >https://www.ankurkhunt.com</a
+                                    >www.ankurkhunt.com</a
                                 >
                             </li>
                             <li>
